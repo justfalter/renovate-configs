@@ -4,11 +4,23 @@
     "packageRules": [
         {
             "matchSourceUrls": ["https://github.com/aws/aws-sdk-js-v3{/**,}"],
-            "fetchChangeLogs": "off"
+            "fetchChangeLogs": "off",
+            "prBodyNotes": [
+                "This is a prBodyNote for aws/aws-sdk-js-v3."
+            ]
+        },
+        {
+            "matchSourceUrls": ["*"],
+            "prBodyNotes": [
+                "This is a test prBodyNote."
+            ]
         },
         {
             "matchSourceUrls": ["https://github.com/aws/aws-sdk-go-v2{/**,}"],
-            "fetchChangeLogs": "off"
+            "fetchChangeLogs": "off",
+            "prBodyNotes": [
+                "Fetching of changelogs for aws/aws-sdk-go-v2 packages are explicitly disabled via [this rule here](https://github.com/justfalter/renovate-configs/blob/main/disable.md)"
+            ]
         }
     ]
   }

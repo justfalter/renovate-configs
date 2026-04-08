@@ -3,7 +3,8 @@
     "description": ["my test renovate config"],
     "packageRules": [
         {
-            "matchSourceUrls": ["https://github.com/aws/aws-sdk-js-v3{/**,}"]
+            "matchSourceUrls": ["https://github.com/aws/aws-sdk-js-v3{/**,}"],
+            "fetchChangeLogs": "off"
         },
         {
             "matchSourceUrls": ["https://github.com/aws/aws-sdk-go-v2{/**,}"],

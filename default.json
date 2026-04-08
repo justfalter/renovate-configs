@@ -6,7 +6,7 @@
             "matchSourceUrls": ["https://github.com/aws/aws-sdk-js-v3{/**,}"],
             "fetchChangeLogs": "off",
             "prBodyNotes": [
-                "This is a prBodyNote for aws/aws-sdk-js-v3."
+                "> [!IMPORTANT]\n> This is a prBodyNote for aws/aws-sdk-js-v3."
             ]
         },
         {
@@ -19,7 +19,7 @@
             "matchSourceUrls": ["https://github.com/aws/aws-sdk-go-v2{/**,}"],
             "fetchChangeLogs": "off",
             "prBodyNotes": [
-                "Fetching of changelogs for aws/aws-sdk-go-v2 packages are explicitly disabled via [this rule here](https://github.com/justfalter/renovate-configs/blob/main/disable.md)"
+                "> [!IMPORTANT]\n> Fetching of changelogs for aws/aws-sdk-go-v2 packages are explicitly disabled via [this rule here](https://github.com/justfalter/renovate-configs/blob/main/disable.md)"
             ]
         }
     ]

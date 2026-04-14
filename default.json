@@ -1,6 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": ["my test renovate config"],
+    "printConfig": true,
     "packageRules": [
         {
             "matchSourceUrls": ["https://github.com/aws/aws-sdk-js-v3{/**,}"],
